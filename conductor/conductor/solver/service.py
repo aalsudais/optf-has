@@ -361,7 +361,7 @@ class SolverService(cotyledon.Service):
             if 'FAILURE' in _is_updated:
                 continue
 
-            LOG.info(_LI("Sovling starts, changing the template status from translated to solving, "
+            LOG.info(_LI("Solving starts, changing the template status from translated to solving, "
                              "atomic update response from MUSIC {}").format(_is_updated))
 
             LOG.info(_LI("Plan {} with request id {} is solving by machine {}. Tried to solve it for {} times.").
